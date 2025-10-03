@@ -19,7 +19,7 @@ Think of it as the unstable cousin of FreeBSD —
 
 ## Features
 - CF-Menu™ an basic menu system for basic use
-- CF-Web™ an based system for CF-Browser
+- Cupctl™ an wried system for fill you cup
 - etc
 
 ---
