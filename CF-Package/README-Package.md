@@ -21,6 +21,15 @@ Think of this like /usr/local/bin that got out of hand.
 ---
 
 ## installation
+1.compile
+
 ```bash
 cc -Incurses [package name].c -o [package name]
 ```
+
+2.move it to /use/local/bin and make it executeable
+```bash
+cp [package name after compile] /usr/local/bin
+chmod +x [that package name]
+```
+
