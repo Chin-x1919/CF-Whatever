@@ -11,6 +11,7 @@ CF-Whatever is the **base OS layer** of CF-Space projects:
 - Motto: *"BSD but cursed, and CF-branded."*
 - but this sourcecode is just CF-Package only
 
+
 Think of it as the unstable cousin of FreeBSD —  
 **CF-Whatever = experimental meme build**  
 **CF-OS = daily-use build (user-friendly)**  
@@ -22,13 +23,6 @@ Think of it as the unstable cousin of FreeBSD —
 - Cupctl™ an wried system for fill you cup
 - flashlight™ an program that will help you search file on you system
  
----
-
-Certified by CF-Space Quality™  
-(Which means: no guarantees at all)
-
-That’s how i do it.
-
 ---
 
 ## License
@@ -45,3 +39,10 @@ This means:
 - You are free to modify and redistribute CF-Packages under MIT terms.
 - Anything from FreeBSD core stays under the BSD license.
 - Mixing both? Just respect both licenses when redistributing.
+
+---
+
+Certified by CF-Space Quality™  
+(Which means: no guarantees at all)
+
+That’s how i do it.
