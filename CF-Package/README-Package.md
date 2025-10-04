@@ -33,3 +33,7 @@ cp [package name after compile] /usr/local/bin
 chmod +x [that package name]
 ```
 
+---
+
+License: MIT
+© CF-Space 2025. “Because BSD wasn’t chaotic enough.”
