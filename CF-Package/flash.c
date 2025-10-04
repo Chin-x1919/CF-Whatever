@@ -26,7 +26,7 @@ int main() {
     snprintf(cmd2, sizeof(cmd2), "man -k %s 2>/dev/null | head -n 10", query);
     system(cmd2);
 
-    printf("\n⚡ Command:\n");
+    printf("\n Command:\n");
     char cmd3[512];
     snprintf(cmd3, sizeof(cmd3), "which %s 2>/dev/null || echo 'Not found as command'", query);
     system(cmd3);
