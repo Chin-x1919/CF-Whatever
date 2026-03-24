@@ -19,12 +19,12 @@ int main(int argc, char *argv[]) {
             if (strncmp(arg, "--", 2) == 0) {
                 arg += 2;
             }
-            printf("go grab \"%s\" yourself\n", arg);
+            printf("go grab \"%s\" yourself just don't\n", arg);
         }
     } else if (strcmp(cmd, "heat") == 0) {
-        printf("Heating... oh wait, no heating element detected.\n");
+        printf("Heating... oh wait, we're burning cpu rightnow.\n");
     } else if (strcmp(cmd, "status") == 0) {
-        printf("Cup status: Half Empty\n");
+        printf("Cup status: IDK\n");
     } else if (strcmp(cmd, "upgrade") == 0) {
         printf("Nah you can't upgrade LOL\n");
     } else if (strcmp(cmd, "--help") == 0 || strcmp(cmd, "help") == 0) {
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
         printf("  fill --item    Fill the cup with item\n");
         printf("  heat           Try to heat the cup\n");
         printf("  status         Show cup status\n");
-        printf("  upgrade        Suggest upgrade\n");
+        printf("  upgrade        ask for upgrade\n");
     } else {
         printf("cupctl: unknown command '%s'\n", cmd);
         printf("Try 'cupctl --help' for more information.\n");
